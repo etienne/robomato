@@ -5,8 +5,8 @@ config = {
   'team'           => 'ouvrage',
   'channel'        => '#tomates',
   'name'           => 'robomato',
-  'incoming_token' => ENV['token'],
-  'outgoing_token' => ENV['token']
+  'incoming_token' => ENV['incoming_token'],
+  'outgoing_token' => ENV['outgoing_token']
 }
 
 bot = Slackbotsy::Bot.new(config) do

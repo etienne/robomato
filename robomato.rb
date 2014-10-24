@@ -3,7 +3,7 @@ require 'sinatra'
 
 config = {
   'team'           => 'ouvrage',
-  'channel'        => '#tomates',
+  'channel'        => '#tests-de-robot',
   'name'           => 'robomato',
   'incoming_token' => ENV['incoming_token'],
   'outgoing_token' => ENV['outgoing_token']

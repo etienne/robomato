@@ -12,7 +12,7 @@ config = {
 bot = Slackbotsy::Bot.new(config) do
 
   hear /tomate(([^\d]+)(\d+)(.+)mins?)?/ do |data, mdata|
-    mdata.to_s
+    "prout #{mdata}"
     # if mdata[3].to_i > 0
     #   duration = mdata[3]
     # else
